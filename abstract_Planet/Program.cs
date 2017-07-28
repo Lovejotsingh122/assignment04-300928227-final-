@@ -10,6 +10,15 @@ namespace abstract_Planet
     {
         static void Main(string[] args)
         {
+            GiantPlanet giantPlanet = new GiantPlanet("Mars", 6779, 6.39, "GAS");
+            TerrestrialPlanet terrestrialPlanet = new TerrestrialPlanet("Earth", 12742, 5.9722, true);
+            giantPlanet.ToString();
+            terrestrialPlanet.ToString();
+            Program.WAITFORANYKEY();
+        }
+        static void WAITFORANYKEY()
+        {
+            Console.ReadLine();
         }
     }
 }
