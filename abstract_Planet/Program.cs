@@ -15,7 +15,7 @@ namespace abstract_Planet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("************************************ Planet Description ***********************************");
+            Console.WriteLine("*********************************** Planets Description ***********************************");
             Console.WriteLine("******************************** © Lovejot Singh-300928227 ********************************");
             Console.WriteLine();
             GiantPlanet giantPlanet = new GiantPlanet("Mercury", 4879, 3.285, "GAS");
@@ -27,23 +27,43 @@ namespace abstract_Planet
             GiantPlanet giantPlanet5 = new GiantPlanet("Uranus",50724, 8.681, "GAS");
             GiantPlanet giantPlanet6 = new GiantPlanet("Neptune", 49244, 1.024, "GAS");
             GiantPlanet giantPlanet7 = new GiantPlanet("Pluto", 23266,1.30, "GAS");
+            Console.WriteLine("Press any Key to See the Planet's Information");
+            Program.PRESSANYKEY();
             giantPlanet.ToString();
+            Program.PRESSANYKEY();
+
             giantPlanet1.ToString();
+            Program.PRESSANYKEY();
+
             terrestrialPlanet.ToString();
+            Program.PRESSANYKEY();
+
             giantPlanet2.ToString();
+            Program.PRESSANYKEY();
+
             giantPlanet3.ToString();
+            Program.PRESSANYKEY();
+
             giantPlanet4.ToString();
+            Program.PRESSANYKEY();
+
             giantPlanet5.ToString();
+            Program.PRESSANYKEY();
+
             giantPlanet6.ToString();
+            Program.PRESSANYKEY();
+
             giantPlanet7.ToString();
+            Program.PRESSANYKEY();
+
             Console.WriteLine();
             Console.WriteLine("*******************************************************************************************");
             Console.WriteLine("****************************************** The End ****************************************");
 
-            Program.WAITFORANYKEY();
+            Program.PRESSANYKEY();
             
         }
-        static void WAITFORANYKEY()
+        static void PRESSANYKEY()
         {
             Console.ReadLine();
         }
