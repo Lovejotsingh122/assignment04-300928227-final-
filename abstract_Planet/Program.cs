@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
+ * github link https://github.com/Lovejotsingh122/assignment04-300928227-final-
+ * Name: Lovejot Singh
+ * Date: 28 july 2017
+ * description: this is the main program where we can check test harness
+ */
 namespace abstract_Planet
 {
     class Program
