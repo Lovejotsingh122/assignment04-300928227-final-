@@ -97,7 +97,7 @@ namespace abstract_Planet
         }
         public override string ToString()
         {
-            string PlanetInfo = "The planet " + this.Name + " has the diameter : " + this.Diameter + " Kilometer and has mass: " + this.Mass + " x 10^24 kilograms.";
+            string PlanetInfo = "The planet " + this.Name + " has Diameter : " + this.Diameter + " Kilometer and has mass: " + this.Mass + " x 10^24 kilograms.";
             Console.WriteLine(PlanetInfo);
             return PlanetInfo;
         }
